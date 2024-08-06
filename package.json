@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^5.17.0",
     "monaco": "^1.201704190613.0",
     "next": "14.2.5",
     "prisma": "^5.17.0",
