@@ -8,7 +8,8 @@ export async function editSnippet(id: number, code: string)
         where: {id},
         data: {code}
     });
-
+    
+    revalidatePath('/');
     redirect(`/snippets/${id}`);
 }
 
